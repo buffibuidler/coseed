@@ -1,0 +1,10 @@
+.navbar {
+  width: 100%;
+  position: absolute;
+  justify-content: center;
+  padding: 2rem 3rem;
+}
+
+.logo {
+  width: 8rem;
+}
