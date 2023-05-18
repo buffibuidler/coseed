@@ -1,5 +1,6 @@
 import { VStack, Image, Text, Button } from "@chakra-ui/react";
 import type { NextPage } from "next";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -21,7 +22,9 @@ const Home: NextPage = () => {
           <Text className={styles.subtitle}>
             Streamlining web3-native Investment DAOs
           </Text>
-          <Button className={styles.launchBtn}>Launch app</Button>
+          <Link href="/get-started">
+            <Button className={styles.launchBtn}>Launch app</Button>
+          </Link>
         </VStack>
       </main>
       <Image

@@ -1,0 +1,231 @@
+.main {
+  min-height: 100vh;
+  padding: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  min-width: 678px;
+  height: 452px;
+
+  background: rgba(102, 101, 56, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+
+  justify-content: center;
+
+  gap: 1.5rem;
+}
+
+.stepOneContainer {
+  gap: 2rem;
+}
+
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #f4ece5;
+}
+
+.successTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #f4ece5;
+
+  width: 400px;
+}
+
+.continueBtn {
+  width: 232px !important;
+  height: 50px !important;
+
+  background: #f3f4ef !important;
+  border-radius: 25px !important;
+
+  font-family: "Inter" !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 20px;
+  text-align: center;
+
+  color: #063124;
+}
+
+.createBtn {
+  width: 180px !important;
+
+  background: #f3f4ef !important;
+  border-radius: 25px !important;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px !important;
+  line-height: 29px;
+  text-align: center;
+
+  color: #063124;
+}
+
+.daoLogo {
+  width: 25px;
+  height: 25px;
+}
+
+.titleContainer {
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.input {
+  width: 400px !important;
+  height: 50px !important;
+
+  background: rgba(217, 217, 217, 0.01) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 15px !important;
+}
+
+.halfinput {
+  width: 200px !important;
+  height: 50px !important;
+
+  background: rgba(217, 217, 217, 0.01) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 15px !important;
+}
+
+.socialInput {
+  width: 250px !important;
+  height: 50px !important;
+
+  background: rgba(217, 217, 217, 0.01) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 15px !important;
+}
+
+.textarea {
+  width: 400px !important;
+  height: 150px !important;
+
+  background: rgba(217, 217, 217, 0.01) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 15px !important;
+}
+
+.circle {
+  width: 8px;
+  height: 8px;
+  left: 627px;
+  top: 604px;
+  border-radius: 50%;
+
+  background: #484848;
+}
+
+.uploader {
+  /* width: 623px;
+  height: 100px;
+  border: 3px solid #000000;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #1c1c1c;
+  cursor: pointer; */
+  width: 194px;
+  height: 194px;
+  left: 541px;
+  top: 283px;
+
+  border: 1px solid #474747;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.uploader::-webkit-file-upload-button {
+  display: none;
+}
+
+.uploader[type="file"] {
+  color: transparent;
+}
+
+.uploaderText {
+  position: absolute;
+  top: 78px;
+  justify-content: space-between;
+  z-index: 0;
+}
+
+.uploadContainer {
+  position: relative;
+}
+
+.stepTwoContainer {
+  gap: 1rem;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.inputBox {
+  position: relative;
+}
+
+.inputUnit {
+  position: absolute;
+  top: 5px;
+  right: 1rem;
+}
+
+.klaytnLogo {
+  width: 25px;
+  height: 25px;
+}
+
+.successImage {
+  width: 531px;
+  height: 531px;
+}
+
+.successDAO {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+
+  text-align: center;
+
+  color: #f4ece5;
+}
+
+.successTitleContainer {
+  padding-top: 5rem;
+  gap: 1rem;
+}

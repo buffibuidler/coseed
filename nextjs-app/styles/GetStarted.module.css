@@ -1,0 +1,96 @@
+.main {
+  min-height: 100vh;
+  padding: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  min-width: 678px;
+  height: 452px;
+
+  background: rgba(102, 101, 56, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+.daoContainer {
+  min-width: 678px;
+  min-height: 366px;
+
+  background: rgba(102, 101, 56, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+
+  justify-content: center;
+
+  gap: 1rem;
+
+  padding: 2rem 1rem;
+}
+
+.title {
+  width: 300px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #f4ece5;
+}
+
+.connectBtn {
+  width: 232px !important;
+
+  background: #f3f4ef !important;
+  border-radius: 25px !important;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px !important;
+  line-height: 29px;
+  text-align: center;
+
+  color: #063124;
+}
+
+.createBtn {
+  width: 180px !important;
+
+  background: #f3f4ef !important;
+  border-radius: 25px !important;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px !important;
+  line-height: 29px;
+  text-align: center;
+
+  color: #063124;
+}
+
+.daoLogo {
+  width: 25px;
+  height: 25px;
+}
+
+.titleContainer {
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
