@@ -8,7 +8,8 @@ import {
   Td,
   TableContainer,
 } from "@chakra-ui/react";
-import styles from "@styles/Create.module.css";
+import styles from "@styles/GetStarted.module.css";
+import Link from "next/link";
 import { useState } from "react";
 import { myDAOs } from "../data/data";
 
@@ -34,7 +35,9 @@ function GetStarted() {
           <HStack className={styles.titleContainer}>
             <VStack w="180px"></VStack>
             <Text className={styles.title}>Your Investment DAOs</Text>
-            <Button className={styles.createBtn}>Create a DAO</Button>
+            <Link href="/create">
+              <Button className={styles.createBtn}>Create a DAO</Button>
+            </Link>
           </HStack>
           <Divider></Divider>
           <TableContainer w="800px">

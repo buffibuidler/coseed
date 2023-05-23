@@ -1,0 +1,173 @@
+.main {
+  min-height: 100vh;
+  padding: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3.5rem;
+  gap: 0.5rem;
+}
+
+.container {
+  width: 1114px;
+
+  background: rgba(102, 101, 56, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+
+  justify-content: flex-start;
+
+  gap: 0.5rem;
+  padding: 2rem;
+}
+
+.aumContainer {
+  width: 540px;
+
+  background: rgba(102, 101, 56, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+
+  justify-content: flex-start;
+
+  gap: 0.5rem;
+  padding: 2rem;
+}
+
+.memberContainer {
+  width: 540px;
+
+  background: rgba(102, 101, 56, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+
+  justify-content: flex-start;
+  align-items: center;
+
+  gap: 0.5rem;
+  padding: 2rem;
+}
+
+.daoLogo {
+  width: 118px;
+  height: 118px;
+  border-radius: 50%;
+}
+
+.name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  color: #f4ece5;
+}
+
+.description {
+  width: 730px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #f4ece5;
+
+  margin-top: 0 !important;
+  padding-top: 0;
+}
+
+.depositBtn {
+  width: 140px !important;
+  height: 35px !important;
+
+  background: #f3f4ef !important;
+  border-radius: 25px !important;
+
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 18px;
+  text-align: center;
+
+  color: #063124;
+}
+
+.klaytnLogo {
+  width: 25px;
+  height: 25px;
+}
+
+.dueDate {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+
+  color: #868686;
+}
+
+.progressBarContainer {
+  position: relative;
+  width: 100%;
+  height: 15px;
+
+  background: rgba(217, 217, 217, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  border-radius: 5px;
+}
+
+.progressBar {
+  position: absolute;
+  width: 75%;
+  height: 100%;
+
+  border-radius: 10px;
+  background: #e38627;
+}
+
+.goalContainer {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.sectionTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #f4ece5;
+}
+
+.fiatBalance {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 1px 0 !important;
+
+  color: #979797;
+}
+
+.tbody {
+  height: 100px;
+}
+
+.tableContainer {
+  width: 100%;
+  height: 100px;
+  overflow-y: scroll;
+}

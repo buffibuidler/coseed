@@ -58,9 +58,9 @@
   background: #f3f4ef !important;
   border-radius: 25px !important;
 
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
   font-size: 20px !important;
   line-height: 29px;
   text-align: center;
@@ -74,9 +74,9 @@
   background: #f3f4ef !important;
   border-radius: 25px !important;
 
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
   font-size: 18px !important;
   line-height: 29px;
   text-align: center;

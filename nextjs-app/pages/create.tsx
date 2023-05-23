@@ -84,7 +84,7 @@ function Create() {
                 <HStack className={styles.inputUnit}>
                   <Image
                     alt="klaytn logo"
-                    src="klaytn_logo.png"
+                    src="/klaytn_logo.png"
                     className={styles.klaytnLogo}
                   ></Image>
                   <Text>KLAY</Text>
