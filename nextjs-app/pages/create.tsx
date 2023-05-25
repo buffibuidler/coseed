@@ -83,11 +83,11 @@ function Create() {
                 <Input className={styles.input}></Input>
                 <HStack className={styles.inputUnit}>
                   <Image
-                    alt="klaytn logo"
-                    src="/klaytn_logo.png"
-                    className={styles.klaytnLogo}
+                    alt="evmos logo"
+                    src="/evmos.png"
+                    className={styles.evmosLogo}
                   ></Image>
-                  <Text>KLAY</Text>
+                  <Text>EVMOS</Text>
                 </HStack>
               </VStack>
             </VStack>
@@ -125,11 +125,11 @@ function Create() {
                 <Input className={styles.input}></Input>
                 <HStack className={styles.inputUnit}>
                   <Image
-                    alt="klaytn logo"
-                    src="klaytn_logo.png"
-                    className={styles.klaytnLogo}
+                    alt="evmos logo"
+                    src="evmos.png"
+                    className={styles.evmosLogo}
                   ></Image>
-                  <Text>KLAY</Text>
+                  <Text>EVMOS</Text>
                 </HStack>
               </VStack>
             </VStack>

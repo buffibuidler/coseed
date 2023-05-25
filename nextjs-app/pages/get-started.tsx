@@ -21,7 +21,7 @@ function GetStarted() {
       {!address ? (
         <VStack className={styles.container}>
           <Text className={styles.title}>
-            Please connect your Klaytn Wallet to get started.
+            Please connect your Evmos Wallet to get started.
           </Text>
           <Button
             className={styles.connectBtn}
@@ -63,7 +63,7 @@ function GetStarted() {
                         <Text>{name}</Text>
                       </HStack>
                     </Td>
-                    <Td>{size} KLAY</Td>
+                    <Td>{size} EVMOS</Td>
                     <Td>{members}</Td>
                     <Td>{share}%</Td>
                   </Tr>

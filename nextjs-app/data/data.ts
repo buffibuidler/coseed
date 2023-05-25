@@ -1,20 +1,20 @@
 export const myDAOs = [
   {
-    logo: "/klaytn_logo.png",
+    logo: "/evmos.png",
     name: "Krome Investors (KRIN)",
     size: 1000,
     members: 100,
     share: 5,
   },
   {
-    logo: "/klaytn_logo.png",
+    logo: "/evmos.png",
     name: "Krome Investors (KRIN)",
     size: 1000,
     members: 100,
     share: 5,
   },
   {
-    logo: "/klaytn_logo.png",
+    logo: "/evmos.png",
     name: "Krome Investors (KRIN)",
     size: 1000,
     members: 100,
@@ -24,9 +24,9 @@ export const myDAOs = [
 
 export const aum = [
   {
-    logo: "/klaytn_logo.png",
-    name: "Klaytn",
-    symbol: "KLAY",
+    logo: "/evmos.png",
+    name: "Evmos",
+    symbol: "EVMOS",
     balance: 2493,
     fiat: 10382,
   },
